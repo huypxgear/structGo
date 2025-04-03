@@ -21,9 +21,8 @@ func main() {
 			zipCode: 1234,
 		},
 	}
-	//Give me the memory address of the value this variable pointing at
-	jimPointer := &jim
-	jimPointer.updateName("Jimmy")
+
+	jim.updateName("Jimmy")
 	jim.print()
 }
 
